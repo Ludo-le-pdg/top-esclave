@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>E.Leclerc Gap</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <link href="https://fonts.cdnfonts.com/css/round-butterfly" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <script src="entreprise.js">entreprise</script>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="logo.png" alt="Logo">
+        </a>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Rechercher...">
+        <button type="submit">Rechercher</button>
+    </div>
+</header>
+<aside class="sidebar sticky">
+    <h2><a href="categorie.html" id="categorie">Catégorie</a></h2>
+    <ul>
+        <li><a id="liste1">Grande distribution</a></li><br>
+        <li><a href="#">Restauration</a></li>
+        <li><a href="#">Hôtellerie</a></li>
+        <li><a href="#">Technologie</a></li>
+        <li><a href="#">Banque</a></li>
+        <li><a href="#">Industrie</a></li>
+        <li><a href="#">Autre</a></li>
+    </ul>
+</aside>
+<main> 
+    <h1>ISSOU</h1>
+    <div class="container3">
+        <template id="template-commentaire">
+            <h2 id="title2">E.Leclerc GAP</h2>
+            <div id="quatrieme">
+                <div id="div-text">
+                    <h2 id="title3">Description</h2>
+                    <div id="div-description"><p>Crée en 1987, le centre Leclerc de Gap
+                         est l'un des plus grand hypermarché du département des Hautes-Alpes
+                         . Chaque année cette hypermarché acueil près de 1 500 000 clients.
+                          En plus de leur supermarché le centre leclerc de Gap possède plusieur
+                           enseigne comme Le Drive, La Parapharmacie et l'Auto E.Leclerc.
+                 Au total près de 240 personnes travaillent dans le centre au centre leclerc de Gap.</p></div>
+                </div>
+                <div id="div-photo">
+                    <img src="leclerc-gap.jpg" alt="image de l'entreprise" id="img-entreprise">
+                </div>
+            </div>
+            <div id="aaaa">
+            <div id="entreprise-note">
+                <div id="carre-note-entreprise"><p id="note-entreprise">0 | 10</p></div>
+            </div>
+            <div id="commentaire">
+                <h2 id="title4">Commentaires</h2>
+                <form id="form-commentaire">
+                    <label for="pseudonyme">Pseudonyme :</label>
+                    <input type="text" name="pseudo" id="pseudonyme" placeholder="Jean Michel" required>
+                    <br>
+                    <label for="note-ent">Note :</label>
+                    <input type="number" name="note_ent" id="note-ent" placeholder="0" min="0" max="10" required>
+                    <br>
+                    <label>Commentaire :</label>
+                    <br>
+                    <textarea name="com" id="com" cols="30" rows="10" placeholder="Cette entreprise est vraiment à chier etc..."></textarea>
+                    <br>
+                    <input type="submit" value="Envoyer" id="submit-commentaire">
+                  </form>
+                  <div id="list-commentaire">
+
+                  </div>
+            </div>
+            </div>
+    </div>
+    </template>
+</main>
+</body>
+</html>

@@ -1,0 +1,454 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+  z-index: 100; /* Ajoutez une valeur de z-index pour empiler le header au-dessus du reste du contenu */
+}
+
+.logo img {
+  height: 50px;
+}
+
+.search-bar input {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  background-color: #555555;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #b3e317;
+  height: 100%;
+  margin-top: 74px;
+}
+
+.sidebar.sticky {
+  position: fixed;
+  top: 0;
+}
+
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  margin: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li:first-child {
+  margin-top: 10px; /* Ajoutez votre valeur de marge supérieure ici */
+}
+
+.sidebar li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar a:hover {
+  color: #555;
+}
+
+.sidebar li:hover {
+  background-color: #688a12; /* Définissez la couleur souhaitée lorsque survolé */
+}
+
+.container {
+  height: 1000px; /* La hauteur du contenu sera égale à 100vh (100% de la hauteur de la fenêtre) moins la hauteur du header */
+  overflow: auto;
+}
+
+.container2 {
+  height: 1000px; /* La hauteur du contenu sera égale à 100vh (100% de la hauteur de la fenêtre) moins la hauteur du header */
+}
+
+.container3 {
+  height: 1000px; /* La hauteur du contenu sera égale à 100vh (100% de la hauteur de la fenêtre) moins la hauteur du header */
+  text-align: center;
+  min-width: 400px;
+}
+
+.container #title {
+  color: #333;
+  text-align: center;
+  display: block;
+}
+
+.container3 #title2 {
+  color:#d8d2d2;
+  text-align: center;
+  display: inline-block;
+  background-color: #333;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.container3 #title3 {
+  color:#ffffff;
+  text-align: center;
+  display: inline-block;
+  background-color:black;
+  margin: 0 auto;
+  
+  padding: 5px;
+  margin: 10px;
+}
+
+
+
+#second {
+  margin: 10px;
+  background-color: #555;
+  height: 80%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#quatrieme {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  background-color:rgb(88, 13, 76);
+}
+
+#second p {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+#second img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+
+  margin-left: 200px;
+}
+
+#second #timer {
+  display: block;
+  background-color: #ccc;
+  width: 180px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 50px;
+}
+
+#second #timerr {
+  display: inline;
+  font-size: 50px;
+}
+
+#second #sur {
+  display: inline;
+  font-size: 50px;
+}
+
+
+#categorie {
+  color: #fff;
+}
+
+#troisieme {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+
+.category-box {
+  width: 300px; /* Largeur fixe pour chaque carré */
+  height: 100px; /* Hauteur fixe pour chaque carré */
+  min-width: 150px;
+  margin: 40px; /* Marge autour de chaque carré */
+  display: flex; /* Permet de centrer le contenu à l'intérieur de chaque carré */
+  justify-content: center; /* Centre le contenu horizontalement */
+  align-items: center; /* Centre le contenu verticalement */
+  border-radius: 30px;
+}
+
+#cb1 {
+  background-color:blueviolet;
+}
+
+#cb2 {
+  background-color:aqua;
+}
+
+#cb3 {
+  background-color:#ffc003;
+}
+
+#cb4 {
+  background-color:#827e7e;
+}
+
+#cb5 {
+  background-color:#eaff00;
+}
+
+#cb6 {
+  background-color:#4b6803;
+}
+
+#cb7 {
+  border: #333 solid;
+}
+
+
+
+
+
+.category-content {
+  display: flex;
+  align-items: center;
+}
+
+.category-image {
+  width: 50px; /* Ajustez la taille de l'image selon vos besoins */
+  height: 50px;
+  margin-right: 10px; /* Ajustez la marge entre l'image et le texte selon vos besoins */
+}
+
+#cb1 a {
+  text-decoration: none;
+  color: #333;
+}
+
+#img-entreprise {
+  width: 80%;
+
+}
+
+#div-photo{
+  margin-top: 0px;
+  margin-left: auto;
+  width: 50%;
+  max-height: 100%;
+  background-color: #555;
+  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#div-text {
+  width: 50%;
+}
+
+#div-description {
+  background-color:#555;
+  margin-left: 10%;
+  width: 80%;
+  height: 80%;
+  color: white;
+  border: black solid;
+  word-wrap: break-word;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 768px){
+  #aaaa {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  #entreprise-note {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+  }
+
+  #carre-note-entreprise {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+    background-color: #555;
+  }
+
+  #note-entreprise {
+    display: inline;
+    font-size: 50px;
+
+  }
+  
+  
+}
+
+@media screen and (min-width: 768px){
+  #aaaa {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+
+  #entreprise-note {
+    background-color: black;
+    width: 225px;
+    height: 100%;
+  }
+
+  #carre-note-entreprise {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    height: 100px;
+    background-color: #555;
+  }
+
+  #note-entreprise {
+    display: inline;
+    font-size: 50px;
+
+  }
+
+  .container3 #title4 {
+    text-align: center;
+  }
+
+}
+
+#commentaire {
+  width: 100%;
+}
+
+#title4 {
+  font-family: 'Round Butterfly', sans-serif;
+  font-size: 40px;
+}
+
+#form-commentaire {
+  text-align: left;
+  margin: 0 auto;
+  background-color:#ffc003;
+  padding: 1em;
+  border: #333 solid;
+}
+
+#form-commentaire label {
+  margin-left: 1em;
+}
+
+#submit-commentaire {
+  display: block;
+  margin: 0 auto;
+}
+
+#com {
+  margin-top: 0.5em;
+  margin-left: 2em;
+  width: 90%;
+  height: 5em;
+}
+
+#note-ent {
+  margin-left: 4em;
+  margin-top: 0.5em;
+}
+
+#list-commentaire {
+  margin-top: 2em;
+  border: #333 solid;
+  height: 60%;
+  overflow: auto;
+}
+
+.class-commentaire {
+  height: 10em;
+  border-top: #333 solid 2px;
+  border-bottom: #333 solid 2px;
+}
+
+.class-commentaire:not(:first-child) {
+  margin-top: 1em;
+}
+
+.class-note-commentaire {
+  background-color: #333;
+  width: 4em;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: white;
+  margin: 0;
+}
+
+.class-note-pseudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-bottom: #333 solid 1px;
+}
+
+.class-com-commentaire {
+  display: block;
+  width: 90%;
+  background-color: #333;
+  margin: 1em auto;
+  color: white;
+  height: 50%;
+  border: grey solid;
+  border-radius: 0.5em;
+  text-align: left;
+  padding-left: 0.5em;
+  font-size: 0.9em;
+}
+
+
+
+
+
+

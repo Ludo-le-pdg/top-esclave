@@ -1,0 +1,45 @@
+{
+    "entreprises": [
+      {
+        "nom": "Nom de l'entreprise 1",
+        "notes": [
+          {
+            "utilisateur": "Utilisateur 1",
+            "note": 4,
+            "commentaire": "Commentaire sur la note 1"
+          },
+          {
+            "utilisateur": "Utilisateur 2",
+            "note": 3,
+            "commentaire": "Commentaire sur la note 2"
+          },
+          {
+            "utilisateur": "Utilisateur 3",
+            "note": 5,
+            "commentaire": "Commentaire sur la note 3"
+          }
+        ]
+      },
+      {
+        "nom": "Nom de l'entreprise 2",
+        "notes": [
+          {
+            "utilisateur": "Utilisateur 1",
+            "note": 2,
+            "commentaire": "Commentaire sur la note 1"
+          },
+          {
+            "utilisateur": "Utilisateur 3",
+            "note": 4,
+            "commentaire": "Commentaire sur la note 2"
+          }
+        ]
+      },
+      {
+        "nom": "E.Leclerc GAP",
+        "notes": [
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de balise &lt;template&gt; en HTML</title>
+</head>
+<body>
+    <!-- Définition du modèle dans la balise <template> -->
+    <template id="monModele">
+        <h2>Titre</h2>
+        <p>Ceci est un paragraphe de contenu.</p>
+    </template>
+
+    <!-- Conteneur où le contenu cloné sera inséré -->
+    <div id="container"></div>
+
+    <!-- Script JavaScript pour cloner et insérer le contenu -->
+    <script>
+        // Obtenir le modèle par son ID
+        const monModele = document.getElementById('monModele');
+
+        // Cloner le contenu du modèle
+        const clone = monModele.content.cloneNode(true);
+
+        // Insérer la copie dans le DOM (dans l'élément div avec l'ID "container")
+        document.getElementById('container').appendChild(clone);
+    </script>
+</body>
+</html>
